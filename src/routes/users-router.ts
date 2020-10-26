@@ -15,7 +15,7 @@ usersRouter.post('/', async (request, response) => {
       password,
     });
 
-    user.password = 'undefined';
+    user.password = 'hidden';
 
     return response.json(user);
   } catch (err) {
