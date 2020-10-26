@@ -16,3 +16,6 @@
 
 ## Migrations
     - yarn typeorm migration:run
+
+## Run application 
+    - yarn dev:server 
