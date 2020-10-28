@@ -9,7 +9,7 @@
     - run: sudo docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 
 ## Check Docker
-    - If docker is not run
+    - If docker is not running
     - docker ps
     - get ID number
     - docker start ID
